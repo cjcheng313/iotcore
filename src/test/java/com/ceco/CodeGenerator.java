@@ -1,4 +1,4 @@
-package com.ceco;
+package com.ccj;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
@@ -53,7 +53,7 @@ public class CodeGenerator {
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
-        DataSourceConfig dsc = new DataSourceConfig();
+        DataSourccjnfig dsc = new DataSourccjnfig();
         dsc.setUrl("jdbc:mysql://bj-cdb-nnkv8t0g.sql.tencentcdb.com:60707/ceiot?serverTimezone=CTT&characterEncoding=utf-8&useUnicode=true&useSSL=false&autoReconnect=true&zeroDateTimeBehavior=convertToNull");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
@@ -64,7 +64,7 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.ceco.module");
+        pc.setParent("com.ccj.module");
         mpg.setPackageInfo(pc);
 
         // 自定义配置
@@ -122,7 +122,7 @@ public class CodeGenerator {
         StrategyConfig strategy = new StrategyConfig();
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
-        strategy.setSuperEntityClass("com.ceco.common.BaseEntity");
+        strategy.setSuperEntityClass("com.ccj.common.BaseEntity");
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
         // 公共父类

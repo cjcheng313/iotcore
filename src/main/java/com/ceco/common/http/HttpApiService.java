@@ -1,4 +1,4 @@
-package com.ceco.common.http;
+package com.ccj.common.http;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;

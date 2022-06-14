@@ -1,4 +1,4 @@
-package com.ceco.common.Enum;
+package com.ccj.common.Enum;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;

@@ -1,8 +1,8 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.FirmwareVersionSaveReq;
-import com.ceco.channel.admin.model.req.FirmwareVersionListReq;
-import com.ceco.channel.admin.model.resp.FirmwareVersionResp;
+import com.ccj.channel.admin.model.req.FirmwareVersionSaveReq;
+import com.ccj.channel.admin.model.req.FirmwareVersionListReq;
+import com.ccj.channel.admin.model.resp.FirmwareVersionResp;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;

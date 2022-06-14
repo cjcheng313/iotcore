@@ -1,12 +1,12 @@
-package com.ceco.channel.app.controller;
+package com.ccj.channel.app.controller;
 
-import com.ceco.channel.admin.model.resp.CountryResp;
-import com.ceco.channel.admin.model.resp.GuideResp;
-import com.ceco.channel.admin.model.resp.ModelResp;
-import com.ceco.channel.service.IApiCountryService;
-import com.ceco.channel.service.IApiGuideService;
-import com.ceco.channel.service.IApiModelService;
-import com.ceco.channel.service.IApiSceneService;
+import com.ccj.channel.admin.model.resp.CountryResp;
+import com.ccj.channel.admin.model.resp.GuideResp;
+import com.ccj.channel.admin.model.resp.ModelResp;
+import com.ccj.channel.service.IApiCountryService;
+import com.ccj.channel.service.IApiGuideService;
+import com.ccj.channel.service.IApiModelService;
+import com.ccj.channel.service.IApiSceneService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

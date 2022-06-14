@@ -1,8 +1,8 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.module.entity.Home;
-import com.ceco.module.dao.HomeMapper;
-import com.ceco.module.service.IHomeService;
+import com.ccj.module.entity.Home;
+import com.ccj.module.dao.HomeMapper;
+import com.ccj.module.service.IHomeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

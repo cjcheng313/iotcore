@@ -1,7 +1,7 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.channel.admin.model.resp.AppUserDeviceResp;
-import com.ceco.module.entity.RoomDevice;
+import com.ccj.channel.admin.model.resp.AppUserDeviceResp;
+import com.ccj.module.entity.RoomDevice;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

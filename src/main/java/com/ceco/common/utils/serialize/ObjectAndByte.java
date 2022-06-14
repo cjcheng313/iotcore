@@ -1,4 +1,4 @@
-package com.ceco.common.utils.serialize;
+package com.ccj.common.utils.serialize;
 
 import java.io.*;
 

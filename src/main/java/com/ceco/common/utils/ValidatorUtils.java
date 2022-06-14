@@ -1,6 +1,6 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
-import com.ceco.common.exception.BusinessException;
+import com.ccj.common.exception.BusinessException;
 import org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.validation.beanvalidation.MessageSourceResourceBundleLocator;

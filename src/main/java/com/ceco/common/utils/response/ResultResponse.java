@@ -1,6 +1,6 @@
-package com.ceco.common.utils.response;
+package com.ccj.common.utils.response;
 
-import com.ceco.common.Enum.ResultCode;
+import com.ccj.common.Enum.ResultCode;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;

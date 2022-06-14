@@ -1,4 +1,4 @@
-package com.ceco.channel.app.model.req;
+package com.ccj.channel.app.model.req;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

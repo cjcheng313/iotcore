@@ -1,4 +1,4 @@
-package com.ceco.common.utils.response;
+package com.ccj.common.utils.response;
 
 public class Response {
     private Integer status;

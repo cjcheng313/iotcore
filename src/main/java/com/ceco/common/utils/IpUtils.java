@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import javax.servlet.http.HttpServletRequest;
 import java.net.InetAddress;

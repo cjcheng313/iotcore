@@ -1,7 +1,7 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.channel.app.model.resp.RoomResp;
-import com.ceco.module.entity.Room;
+import com.ccj.channel.app.model.resp.RoomResp;
+import com.ccj.module.entity.Room;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

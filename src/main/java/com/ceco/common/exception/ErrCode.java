@@ -1,4 +1,4 @@
-package com.ceco.common.exception;
+package com.ccj.common.exception;
 
 
 public class ErrCode {

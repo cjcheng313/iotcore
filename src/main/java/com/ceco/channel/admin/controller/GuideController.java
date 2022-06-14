@@ -1,14 +1,14 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 
-import com.ceco.channel.admin.model.req.CountryListReq;
-import com.ceco.channel.admin.model.req.CountrySaveReq;
-import com.ceco.channel.admin.model.req.GuideListReq;
-import com.ceco.channel.admin.model.req.GuideSaveReq;
-import com.ceco.channel.admin.model.resp.CountryResp;
-import com.ceco.channel.admin.model.resp.GuideResp;
-import com.ceco.channel.service.IApiCountryService;
-import com.ceco.channel.service.IApiGuideService;
+import com.ccj.channel.admin.model.req.CountryListReq;
+import com.ccj.channel.admin.model.req.CountrySaveReq;
+import com.ccj.channel.admin.model.req.GuideListReq;
+import com.ccj.channel.admin.model.req.GuideSaveReq;
+import com.ccj.channel.admin.model.resp.CountryResp;
+import com.ccj.channel.admin.model.resp.GuideResp;
+import com.ccj.channel.service.IApiCountryService;
+import com.ccj.channel.service.IApiGuideService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

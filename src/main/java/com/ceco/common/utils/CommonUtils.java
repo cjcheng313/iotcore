@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import org.apache.commons.lang3.StringUtils;
 

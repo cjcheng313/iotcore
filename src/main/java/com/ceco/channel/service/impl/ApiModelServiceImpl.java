@@ -1,13 +1,13 @@
-package com.ceco.channel.service.impl;
+package com.ccj.channel.service.impl;
 
-import com.ceco.channel.admin.model.req.ModelListReq;
-import com.ceco.channel.admin.model.req.ModelSaveReq;
-import com.ceco.channel.admin.model.resp.ModelResp;
-import com.ceco.channel.service.IApiModelService;
-import com.ceco.common.utils.ConvertUtil;
-import com.ceco.common.utils.ValidatorUtils;
-import com.ceco.module.entity.ModelConf;
-import com.ceco.module.service.IModelConfService;
+import com.ccj.channel.admin.model.req.ModelListReq;
+import com.ccj.channel.admin.model.req.ModelSaveReq;
+import com.ccj.channel.admin.model.resp.ModelResp;
+import com.ccj.channel.service.IApiModelService;
+import com.ccj.common.utils.ConvertUtil;
+import com.ccj.common.utils.ValidatorUtils;
+import com.ccj.module.entity.ModelConf;
+import com.ccj.module.service.IModelConfService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;

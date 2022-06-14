@@ -1,8 +1,8 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.module.entity.SceneConf;
-import com.ceco.module.dao.SceneConfMapper;
-import com.ceco.module.service.ISceneConfService;
+import com.ccj.module.entity.SceneConf;
+import com.ccj.module.dao.SceneConfMapper;
+import com.ccj.module.service.ISceneConfService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

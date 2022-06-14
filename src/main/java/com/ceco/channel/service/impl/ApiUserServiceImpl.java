@@ -1,28 +1,28 @@
-package com.ceco.channel.service.impl;
+package com.ccj.channel.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.ceco.channel.admin.model.req.AppUserListReq;
-import com.ceco.channel.admin.model.req.UserLoginReq;
-import com.ceco.channel.admin.model.resp.AppUserDetailResp;
-import com.ceco.channel.admin.model.resp.AppUserDeviceResp;
-import com.ceco.channel.admin.model.resp.AppUserResp;
-import com.ceco.channel.admin.model.resp.UserLoginResp;
-import com.ceco.channel.app.model.req.AppUserRegisterReq;
-import com.ceco.channel.app.model.req.AppUserSaveReq;
-import com.ceco.channel.service.IApiUserService;
-import com.ceco.common.exception.BusinessException;
-import com.ceco.common.properties.UserProperties;
-import com.ceco.common.utils.Constants;
-import com.ceco.common.utils.ConvertUtil;
-import com.ceco.common.utils.CurrentContext;
-import com.ceco.common.utils.ValidatorUtils;
-import com.ceco.common.utils.encrypt.AES128;
-import com.ceco.module.entity.AdminUser;
-import com.ceco.module.entity.AppUser;
-import com.ceco.module.service.IAdminUserService;
-import com.ceco.module.service.IAppUserService;
-import com.ceco.module.service.IDeviceService;
-import com.ceco.module.service.IRoomDeviceService;
+import com.ccj.channel.admin.model.req.AppUserListReq;
+import com.ccj.channel.admin.model.req.UserLoginReq;
+import com.ccj.channel.admin.model.resp.AppUserDetailResp;
+import com.ccj.channel.admin.model.resp.AppUserDeviceResp;
+import com.ccj.channel.admin.model.resp.AppUserResp;
+import com.ccj.channel.admin.model.resp.UserLoginResp;
+import com.ccj.channel.app.model.req.AppUserRegisterReq;
+import com.ccj.channel.app.model.req.AppUserSaveReq;
+import com.ccj.channel.service.IApiUserService;
+import com.ccj.common.exception.BusinessException;
+import com.ccj.common.properties.UserProperties;
+import com.ccj.common.utils.Constants;
+import com.ccj.common.utils.ConvertUtil;
+import com.ccj.common.utils.CurrentContext;
+import com.ccj.common.utils.ValidatorUtils;
+import com.ccj.common.utils.encrypt.AES128;
+import com.ccj.module.entity.AdminUser;
+import com.ccj.module.entity.AppUser;
+import com.ccj.module.service.IAdminUserService;
+import com.ccj.module.service.IAppUserService;
+import com.ccj.module.service.IDeviceService;
+import com.ccj.module.service.IRoomDeviceService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import io.jsonwebtoken.Jwts;
@@ -42,7 +42,7 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.util.List;
 import java.util.UUID;
 
-import static com.ceco.common.utils.Constants.VERIFY;
+import static com.ccj.common.utils.Constants.VERIFY;
 
 @Slf4j
 @Service

@@ -1,9 +1,9 @@
-package com.ceco.channel.app.controller;
+package com.ccj.channel.app.controller;
 
-import com.ceco.channel.app.model.req.*;
-import com.ceco.channel.app.model.resp.GroupResp;
-import com.ceco.channel.app.model.resp.RoomResp;
-import com.ceco.channel.service.IApiGroupService;
+import com.ccj.channel.app.model.req.*;
+import com.ccj.channel.app.model.resp.GroupResp;
+import com.ccj.channel.app.model.resp.RoomResp;
+import com.ccj.channel.service.IApiGroupService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

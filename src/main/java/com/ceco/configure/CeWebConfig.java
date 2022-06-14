@@ -1,9 +1,9 @@
-package com.ceco.configure;
+package com.ccj.configure;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
-import com.ceco.common.convert.MultiRequestBodyArgumentResolver;
-import com.ceco.common.convert.UrlRequestBodyMethodArgumentResolver;
-import com.ceco.interceptor.ChannelInterceptor;
+import com.ccj.common.convert.MultiRequestBodyArgumentResolver;
+import com.ccj.common.convert.UrlRequestBodyMethodArgumentResolver;
+import com.ccj.interceptor.ChannelInterceptor;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.mybatis.spring.annotation.MapperScan;

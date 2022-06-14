@@ -1,10 +1,10 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 
-import com.ceco.channel.admin.model.req.DevicePanelListReq;
-import com.ceco.channel.admin.model.req.DevicePanelSaveReq;
-import com.ceco.channel.admin.model.resp.DevicePanelResp;
-import com.ceco.channel.service.IApiDevicePanelService;
+import com.ccj.channel.admin.model.req.DevicePanelListReq;
+import com.ccj.channel.admin.model.req.DevicePanelSaveReq;
+import com.ccj.channel.admin.model.resp.DevicePanelResp;
+import com.ccj.channel.service.IApiDevicePanelService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

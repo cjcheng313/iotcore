@@ -1,7 +1,7 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.app.model.req.DeviceRegisterReq;
-import com.ceco.channel.app.model.resp.ConnectedDeviceResp;
+import com.ccj.channel.app.model.req.DeviceRegisterReq;
+import com.ccj.channel.app.model.resp.ConnectedDeviceResp;
 
 public interface IApiDeviceService {
 

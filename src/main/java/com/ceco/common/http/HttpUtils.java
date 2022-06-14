@@ -1,5 +1,5 @@
-package com.ceco.common.http;
-import com.ceco.common.utils.Constants;
+package com.ccj.common.http;
+import com.ccj.common.utils.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

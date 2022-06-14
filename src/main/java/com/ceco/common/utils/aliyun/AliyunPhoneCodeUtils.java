@@ -1,4 +1,4 @@
-package com.ceco.common.utils.aliyun;
+package com.ccj.common.utils.aliyun;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
@@ -8,9 +8,9 @@ import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
-import com.ceco.common.exception.BusinessException;
-import com.ceco.common.utils.StringUtil;
-import com.ceco.configure.AliyunPhoneCodeConfig;
+import com.ccj.common.exception.BusinessException;
+import com.ccj.common.utils.StringUtil;
+import com.ccj.configure.AliyunPhoneCodeConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -18,8 +18,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.ceco.common.utils.Constants.VERIFY;
-import static com.ceco.common.utils.Constants.VERIFY_EXPIRE;
+import static com.ccj.common.utils.Constants.VERIFY;
+import static com.ccj.common.utils.Constants.VERIFY_EXPIRE;
 
 @Slf4j
 @Component

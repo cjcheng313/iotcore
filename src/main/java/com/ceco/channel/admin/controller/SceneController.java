@@ -1,11 +1,11 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 
-import com.ceco.channel.admin.model.req.SceneListReq;
-import com.ceco.channel.admin.model.req.SceneSaveReq;
-import com.ceco.channel.admin.model.req.SceneListReq;
-import com.ceco.channel.admin.model.resp.SceneResp;
-import com.ceco.channel.service.IApiSceneService;
+import com.ccj.channel.admin.model.req.SceneListReq;
+import com.ccj.channel.admin.model.req.SceneSaveReq;
+import com.ccj.channel.admin.model.req.SceneListReq;
+import com.ccj.channel.admin.model.resp.SceneResp;
+import com.ccj.channel.service.IApiSceneService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

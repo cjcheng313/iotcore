@@ -1,7 +1,7 @@
-package com.ceco.common.exception;
+package com.ccj.common.exception;
 
-import com.ceco.common.Enum.EnumCode;
-import com.ceco.common.utils.response.ResultResponse;
+import com.ccj.common.Enum.EnumCode;
+import com.ccj.common.utils.response.ResultResponse;
 import org.apache.ibatis.exceptions.TooManyResultsException;
 import org.springframework.http.HttpStatus;
 import org.springframework.jdbc.BadSqlGrammarException;

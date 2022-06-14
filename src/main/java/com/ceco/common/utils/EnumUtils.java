@@ -1,7 +1,7 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 
-import com.ceco.common.exception.BusinessException;
+import com.ccj.common.exception.BusinessException;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

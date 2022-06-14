@@ -1,10 +1,10 @@
 // This file is auto-generated, don't edit it. Thanks.
-package com.ceco.channel.device.controller;
+package com.ccj.channel.device.controller;
 
 import com.aliyun.iot20180120.models.*;
 import com.aliyun.teaopenapi.models.*;
 
-public class DeviceControl {
+public class Deviccjntrol {
 
     /**
      * 使用AK&SK初始化账号Client
@@ -26,7 +26,7 @@ public class DeviceControl {
 
     public static void main(String[] args_) throws Exception {
         java.util.List<String> args = java.util.Arrays.asList(args_);
-        com.aliyun.iot20180120.Client client = DeviceControl.createClient("LTAI5tH93jjs39zfKYmcZJKo", "30l3anWTOS4PAuvtOSDtJrZgw6jvtz");
+        com.aliyun.iot20180120.Client client = Deviccjntrol.createClient("LTAI5tH93jjs39zfKYmcZJKo", "30l3anWTOS4PAuvtOSDtJrZgw6jvtz");
         SetDevicePropertyRequest setDevicePropertyRequest = new SetDevicePropertyRequest()
                 .setIotInstanceId("iot-06z00d7vxpjd8il")
                 .setProductKey("ge6fUo77lY6")

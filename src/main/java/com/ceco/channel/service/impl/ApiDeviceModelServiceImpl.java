@@ -1,14 +1,14 @@
-package com.ceco.channel.service.impl;
+package com.ccj.channel.service.impl;
 
-import com.ceco.channel.admin.model.req.DeviceModelListReq;
-import com.ceco.channel.admin.model.req.DeviceModelSaveReq;
-import com.ceco.channel.admin.model.resp.DeviceModelResp;
-import com.ceco.channel.admin.model.resp.DeviceTypeResp;
-import com.ceco.channel.service.IApiDeviceModelService;
-import com.ceco.common.utils.ConvertUtil;
-import com.ceco.common.utils.ValidatorUtils;
-import com.ceco.module.entity.DeviceModel;
-import com.ceco.module.service.IDeviceModelService;
+import com.ccj.channel.admin.model.req.DeviceModelListReq;
+import com.ccj.channel.admin.model.req.DeviceModelSaveReq;
+import com.ccj.channel.admin.model.resp.DeviceModelResp;
+import com.ccj.channel.admin.model.resp.DeviceTypeResp;
+import com.ccj.channel.service.IApiDeviceModelService;
+import com.ccj.common.utils.ConvertUtil;
+import com.ccj.common.utils.ValidatorUtils;
+import com.ccj.module.entity.DeviceModel;
+import com.ccj.module.service.IDeviceModelService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;

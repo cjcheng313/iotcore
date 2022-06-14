@@ -1,8 +1,8 @@
-package com.ceco.channel.common;
+package com.ccj.channel.common;
 
-import com.ceco.common.utils.FileUploadResult;
-import com.ceco.common.utils.FileUploadUtils;
-import com.ceco.common.utils.aliyun.AliyunPhoneCodeUtils;
+import com.ccj.common.utils.FileUploadResult;
+import com.ccj.common.utils.FileUploadUtils;
+import com.ccj.common.utils.aliyun.AliyunPhoneCodeUtils;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

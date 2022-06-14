@@ -1,12 +1,12 @@
-package com.ceco;
+package com.ccj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CecoBootstrap {
+public class ccjBootstrap {
 
     public static void main(String[] args) {
-         SpringApplication.run(CecoBootstrap.class, args);
+         SpringApplication.run(ccjBootstrap.class, args);
     }
 }

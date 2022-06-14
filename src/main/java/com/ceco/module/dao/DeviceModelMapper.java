@@ -1,7 +1,7 @@
-package com.ceco.module.dao;
+package com.ccj.module.dao;
 
-import com.ceco.channel.admin.model.resp.DeviceTypeResp;
-import com.ceco.module.entity.DeviceModel;
+import com.ccj.channel.admin.model.resp.DeviceTypeResp;
+import com.ccj.module.entity.DeviceModel;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

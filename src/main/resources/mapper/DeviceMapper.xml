@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ceco.module.dao.DeviceMapper">
+<mapper namespace="com.ccj.module.dao.DeviceMapper">
 
 
-    <select id="selectUserDetailDevice"  resultType="com.ceco.channel.admin.model.resp.AppUserDeviceResp">
+    <select id="selectUserDetailDevice"  resultType="com.ccj.channel.admin.model.resp.AppUserDeviceResp">
         SELECT h.id as homeId,h.name as homeName,r.id as roomId,r.name as roomName,d.id as deviceId,d.name as deviceName,d.serial_no as serialNo
                                         FROM ce_room_device rd
                                         JOIN ce_room r ON rd.room_id = r.id
@@ -13,7 +13,7 @@
     </select>
 
 
-    <select id="selectGroupDevice"  resultType="com.ceco.channel.app.model.resp.DeviceResp">
+    <select id="selectGroupDevice"  resultType="com.ccj.channel.app.model.resp.DeviceResp">
         SELECT d.id as deviceId,d.name as deviceName,d.serial_no as serialNo,g.id as groupId
                                         FROM ce_device d
                                         JOIN ce_group_device gd on d.id = gd.device_id
@@ -22,7 +22,7 @@
     </select>
 
 
-    <select id="selectRoomDevice"  resultType="com.ceco.channel.app.model.resp.DeviceResp">
+    <select id="selectRoomDevice"  resultType="com.ccj.channel.app.model.resp.DeviceResp">
         SELECT d.id as deviceId,d.name as deviceName,d.serial_no as serialNo,r.id as roomId
                                         FROM ce_room_device rd
                                         JOIN ce_room r ON rd.room_id = r.id

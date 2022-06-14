@@ -1,4 +1,4 @@
-package com.ceco.common.utils.encrypt;
+package com.ccj.common.utils.encrypt;
 
 import org.apache.commons.codec.binary.Base64;
 

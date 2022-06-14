@@ -1,6 +1,6 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.module.entity.DevicePanel;
+import com.ccj.module.entity.DevicePanel;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

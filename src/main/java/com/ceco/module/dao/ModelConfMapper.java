@@ -1,6 +1,6 @@
-package com.ceco.module.dao;
+package com.ccj.module.dao;
 
-import com.ceco.module.entity.ModelConf;
+import com.ccj.module.entity.ModelConf;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

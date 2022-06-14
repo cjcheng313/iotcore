@@ -1,8 +1,8 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.module.entity.DevicePanel;
-import com.ceco.module.dao.DevicePanelMapper;
-import com.ceco.module.service.IDevicePanelService;
+import com.ccj.module.entity.DevicePanel;
+import com.ccj.module.dao.DevicePanelMapper;
+import com.ccj.module.service.IDevicePanelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

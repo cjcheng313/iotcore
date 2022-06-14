@@ -1,7 +1,7 @@
-package com.ceco.common.exception;
+package com.ccj.common.exception;
 
 
-import com.ceco.common.Enum.ResultCode;
+import com.ccj.common.Enum.ResultCode;
 
 //@ResponseStatus(HttpStatus.OK)
 public class BusinessException extends RuntimeException {

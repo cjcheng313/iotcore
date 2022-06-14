@@ -1,8 +1,8 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.ModelListReq;
-import com.ceco.channel.admin.model.req.ModelSaveReq;
-import com.ceco.channel.admin.model.resp.ModelResp;
+import com.ccj.channel.admin.model.req.ModelListReq;
+import com.ccj.channel.admin.model.req.ModelSaveReq;
+import com.ccj.channel.admin.model.resp.ModelResp;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;

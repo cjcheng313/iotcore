@@ -1,9 +1,9 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.ceco.channel.admin.model.resp.DeviceModelResp;
-import com.ceco.module.dao.PanelSupportDeviceMapper;
-import com.ceco.module.entity.PanelSupportDevice;
-import com.ceco.module.service.IPanelSupportDeviceService;
+import com.ccj.channel.admin.model.resp.DeviceModelResp;
+import com.ccj.module.dao.PanelSupportDeviceMapper;
+import com.ccj.module.entity.PanelSupportDevice;
+import com.ccj.module.service.IPanelSupportDeviceService;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

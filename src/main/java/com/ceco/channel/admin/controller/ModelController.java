@@ -1,10 +1,10 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 
-import com.ceco.channel.admin.model.req.ModelSaveReq;
-import com.ceco.channel.admin.model.req.ModelListReq;
-import com.ceco.channel.admin.model.resp.ModelResp;
-import com.ceco.channel.service.IApiModelService;
+import com.ccj.channel.admin.model.req.ModelSaveReq;
+import com.ccj.channel.admin.model.req.ModelListReq;
+import com.ccj.channel.admin.model.resp.ModelResp;
+import com.ccj.channel.service.IApiModelService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

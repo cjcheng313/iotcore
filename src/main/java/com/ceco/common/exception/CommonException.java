@@ -1,4 +1,4 @@
-package com.ceco.common.exception;
+package com.ccj.common.exception;
 
 import lombok.extern.slf4j.Slf4j;
 

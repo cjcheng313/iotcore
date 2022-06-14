@@ -1,4 +1,4 @@
-package com.ceco.common.http;
+package com.ccj.common.http;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.ceco.channel.admin.model.dto;
+package com.ccj.channel.admin.model.dto;
 
 import lombok.Data;
 
