@@ -1,0 +1,131 @@
+package com.ceco.common.utils;
+
+import org.springframework.util.ClassUtils;
+
+import java.math.BigDecimal;
+
+public class Constants {
+
+
+
+    public static final String VERIFY = "VERIFY";
+
+    public static final Integer OVERSEAS_APP_USER = 2;
+    public static final long VERIFY_EXPIRE = 300;
+    public static final BigDecimal MERCHNANTSTORAGE = new BigDecimal(512000.0000);
+    /**
+     * UTF-8 字符集
+     */
+    public static final String UTF8 = "UTF-8";
+
+    /**
+     * GBK 字符集
+     */
+    public static final String GBK = "GBK";
+
+
+    /**
+     * 登录成功
+     */
+    public static final String LOGIN_SUCCESS = "Success";
+
+    /**
+     * 注销
+     */
+    public static final String LOGOUT = "Logout";
+
+    /**
+     * 注册
+     */
+    public static final String REGISTER = "Register";
+
+    /**
+     * 登录失败
+     */
+    public static final String LOGIN_FAIL = "Error";
+
+    /**
+     * 当前记录起始索引
+     */
+    public static final String PAGE_NUM = "pageNum";
+
+    /**
+     * 每页显示记录数
+     */
+    public static final String PAGE_SIZE = "pageSize";
+
+    /**
+     * 排序列
+     */
+    public static final String ORDER_BY_COLUMN = "orderByColumn";
+
+    /**
+     * 排序的方向 "desc" 或者 "asc".
+     */
+    public static final String IS_ASC = "isAsc";
+    /**
+     * 直播间热度
+     */
+    public static final String  REDIS_NAMESPACE= ":";
+    public static final String  LIVE_ROOM_HOT= "zf-live-room-hot:";
+    public static final String  MERCHANT_VICTOR= "zf-live-merchant_victor:";
+    public static final String ROOM_USER_RECORD="zf-live-room-user-record:";
+    public static final Object LIVE_ROOM_ONLINE = "zf-live-room-online:";
+    /**
+     * 系统用户授权缓存
+     */
+    public static final String SYS_AUTH_CACHE = "sys-authCache";
+
+    /**
+     * 参数管理 cache name
+     */
+    public static final String SYS_CONFIG_CACHE = "sys-config";
+
+    /**
+     * 参数管理 cache key
+     */
+    public static final String SYS_CONFIG_KEY = "sys_config:";
+
+    /**
+     * 字典管理 cache name
+     */
+    public static final String SYS_DICT_CACHE = "sys-dict";
+
+    /**
+     * 字典管理 cache key
+     */
+    public static final String SYS_DICT_KEY = "sys_dict:";
+
+    /**
+     * 资源映射路径 前缀
+     */
+    public static final String RESOURCE_PREFIX = "/profile";
+
+    public static final String FLOW_EMOJI = "\uD83C\uDF39";
+    public static final String GIVE_EMOJI = "\uD83D\uDC4D";
+
+    public static final String SPLIT1 = ",";
+    /**
+     * 定时任务状态
+     */
+    public enum ScheduleStatus {
+        /**
+         * 正常
+         */
+        NORMAL(0),
+        /**
+         * 暂停
+         */
+        PAUSE(1);
+
+        private int value;
+
+        ScheduleStatus(int value) {
+            this.value = value;
+        }
+
+        public int getValue() {
+            return value;
+        }
+    }
+}

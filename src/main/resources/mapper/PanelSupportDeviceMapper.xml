@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ceco.module.dao.PanelSupportDeviceMapper">
+
+    <select id="selectSupportDeviceList" resultType="com.ceco.channel.admin.model.resp.DeviceModelResp">
+        SELECT dm.model_name as modelName,dm.device_type as deviceType,dm.img_url as imgUrl,dm.img_icon as imgIcon,
+        dm.create_name as createName,dm.create_time as createTime
+        ,vsd.version_id as versionId FROM ce_device_model dm JOIN ce_panel_support_device psd ON dm.id = psd.device_model_id
+       where vsd.panel_id IN
+        <foreach collection="versionIdList" item="id" index="index" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </select>
+</mapper>

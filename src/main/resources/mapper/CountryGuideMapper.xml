@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ceco.module.dao.CountryGuideMapper">
+
+
+    <select id="selectCountryByGuide" resultType="com.ceco.channel.admin.model.dto.CountryGuideDto">
+        SELECT country_id as countryId,guide_id as guideId,country_name as countryName
+        FROM ce_country_guide cg JOIN ce_country c on cg.country_id = c.id
+        where cg.guide_id in
+        <foreach collection="guideIdList" item="id" index="index" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+
+    </select>
+
+</mapper>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ceco.module.dao.RoomMapper">
+
+    <select id="selectHomeRoom" resultType="com.ceco.channel.app.model.resp.RoomResp">
+        SELECT r.id,r.name,h.id as homeId FROM ce_room r JOIN ce_home h ON r.home_id = h.id
+        where h.id = #{appUserId}
+    </select>
+</mapper>
