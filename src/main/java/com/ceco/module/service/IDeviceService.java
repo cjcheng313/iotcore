@@ -1,8 +1,8 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.channel.admin.model.resp.AppUserDeviceResp;
-import com.ceco.channel.app.model.resp.DeviceResp;
-import com.ceco.module.entity.Device;
+import com.ccj.channel.admin.model.resp.AppUserDeviceResp;
+import com.ccj.channel.app.model.resp.DeviceResp;
+import com.ccj.module.entity.Device;
 import com.baomidou.mybatisplus.extension.service.IService;
 import org.apache.ibatis.annotations.Param;
 

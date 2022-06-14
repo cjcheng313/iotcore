@@ -1,8 +1,8 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.module.entity.AdminUser;
-import com.ceco.module.dao.AdminUserMapper;
-import com.ceco.module.service.IAdminUserService;
+import com.ccj.module.entity.AdminUser;
+import com.ccj.module.dao.AdminUserMapper;
+import com.ccj.module.service.IAdminUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

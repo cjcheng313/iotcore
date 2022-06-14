@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import lombok.extern.slf4j.Slf4j;
 

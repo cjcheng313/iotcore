@@ -1,4 +1,4 @@
-package com.ceco.configure;
+package com.ccj.configure;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

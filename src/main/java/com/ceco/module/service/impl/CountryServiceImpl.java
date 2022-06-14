@@ -1,8 +1,8 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.module.entity.Country;
-import com.ceco.module.dao.CountryMapper;
-import com.ceco.module.service.ICountryService;
+import com.ccj.module.entity.Country;
+import com.ccj.module.dao.CountryMapper;
+import com.ccj.module.service.ICountryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

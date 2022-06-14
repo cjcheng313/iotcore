@@ -1,10 +1,10 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 
-import com.ceco.channel.admin.model.req.FirmwareVersionListReq;
-import com.ceco.channel.admin.model.req.FirmwareVersionSaveReq;
-import com.ceco.channel.admin.model.resp.FirmwareVersionResp;
-import com.ceco.channel.service.IApiFirmwareVersionService;
+import com.ccj.channel.admin.model.req.FirmwareVersionListReq;
+import com.ccj.channel.admin.model.req.FirmwareVersionSaveReq;
+import com.ccj.channel.admin.model.resp.FirmwareVersionResp;
+import com.ccj.channel.service.IApiFirmwareVersionService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

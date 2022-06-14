@@ -1,8 +1,8 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ceco.common.http.HttpApiService;
-import com.ceco.configure.CeKjConfig;
+import com.ccj.common.http.HttpApiService;
+import com.ccj.configure.CeKjConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

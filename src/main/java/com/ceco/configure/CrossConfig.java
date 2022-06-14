@@ -1,4 +1,4 @@
-package com.ceco.configure;
+package com.ccj.configure;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

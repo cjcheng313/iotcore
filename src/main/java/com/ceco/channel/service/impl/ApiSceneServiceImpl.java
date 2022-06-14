@@ -1,13 +1,13 @@
-package com.ceco.channel.service.impl;
+package com.ccj.channel.service.impl;
 
-import com.ceco.channel.admin.model.req.SceneListReq;
-import com.ceco.channel.admin.model.req.SceneSaveReq;
-import com.ceco.channel.admin.model.resp.SceneResp;
-import com.ceco.channel.service.IApiSceneService;
-import com.ceco.common.utils.ConvertUtil;
-import com.ceco.common.utils.ValidatorUtils;
-import com.ceco.module.entity.SceneConf;
-import com.ceco.module.service.ISceneConfService;
+import com.ccj.channel.admin.model.req.SceneListReq;
+import com.ccj.channel.admin.model.req.SceneSaveReq;
+import com.ccj.channel.admin.model.resp.SceneResp;
+import com.ccj.channel.service.IApiSceneService;
+import com.ccj.common.utils.ConvertUtil;
+import com.ccj.common.utils.ValidatorUtils;
+import com.ccj.module.entity.SceneConf;
+import com.ccj.module.service.ISceneConfService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;

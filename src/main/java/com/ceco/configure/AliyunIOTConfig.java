@@ -1,4 +1,4 @@
-package com.ceco.configure;
+package com.ccj.configure;
 
 import com.aliyun.mns.client.CloudAccount;
 import lombok.Data;

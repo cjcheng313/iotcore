@@ -1,4 +1,4 @@
-package com.ceco.common.http;
+package com.ccj.common.http;
 
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.impl.client.CloseableHttpClient;

@@ -1,4 +1,4 @@
-package com.ceco.configure;
+package com.ccj.configure;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

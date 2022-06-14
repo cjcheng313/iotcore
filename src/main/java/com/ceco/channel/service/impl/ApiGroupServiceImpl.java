@@ -1,16 +1,16 @@
-package com.ceco.channel.service.impl;
+package com.ccj.channel.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.ceco.channel.app.model.req.*;
-import com.ceco.channel.app.model.resp.DeviceResp;
-import com.ceco.channel.app.model.resp.GroupResp;
-import com.ceco.channel.app.model.resp.RoomResp;
-import com.ceco.channel.service.IApiGroupService;
-import com.ceco.common.exception.BusinessException;
-import com.ceco.common.utils.ConvertUtil;
-import com.ceco.common.utils.ValidatorUtils;
-import com.ceco.module.entity.*;
-import com.ceco.module.service.*;
+import com.ccj.channel.app.model.req.*;
+import com.ccj.channel.app.model.resp.DeviceResp;
+import com.ccj.channel.app.model.resp.GroupResp;
+import com.ccj.channel.app.model.resp.RoomResp;
+import com.ccj.channel.service.IApiGroupService;
+import com.ccj.common.exception.BusinessException;
+import com.ccj.common.utils.ConvertUtil;
+import com.ccj.common.utils.ValidatorUtils;
+import com.ccj.module.entity.*;
+import com.ccj.module.service.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;

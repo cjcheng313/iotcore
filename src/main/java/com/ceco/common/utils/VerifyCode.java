@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 /*对图片进行处理的类和方法*/
 

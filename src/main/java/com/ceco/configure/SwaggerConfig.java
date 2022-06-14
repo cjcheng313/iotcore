@@ -1,4 +1,4 @@
-package com.ceco.configure;
+package com.ccj.configure;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -31,7 +31,7 @@ public class SwaggerConfig {
                 .globalOperationParameters(aParameters)
 //        .host("localhost:20000")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.ceco.channel.admin"))//controller路径
+                .apis(RequestHandlerSelectors.basePackage("com.ccj.channel.admin"))//controller路径
                 .paths(PathSelectors.any()).build();
     }
     @Bean
@@ -43,7 +43,7 @@ public class SwaggerConfig {
                 .apiInfo(buildApiInf())
 //        .host("localhost:20000")
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.ceco.channel.app"))//controller路径
+                .apis(RequestHandlerSelectors.basePackage("com.ccj.channel.app"))//controller路径
                 .paths(PathSelectors.any()).build();
     }
 

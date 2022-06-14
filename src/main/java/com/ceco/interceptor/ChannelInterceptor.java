@@ -1,8 +1,8 @@
-package com.ceco.interceptor;
+package com.ccj.interceptor;
 
-import com.ceco.common.exception.BusinessException;
-import com.ceco.common.properties.UserProperties;
-import com.ceco.common.utils.CurrentContext;
+import com.ccj.common.exception.BusinessException;
+import com.ccj.common.properties.UserProperties;
+import com.ccj.common.utils.CurrentContext;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jws;

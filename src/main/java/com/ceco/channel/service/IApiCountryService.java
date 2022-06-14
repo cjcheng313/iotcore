@@ -1,8 +1,8 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.CountryListReq;
-import com.ceco.channel.admin.model.req.CountrySaveReq;
-import com.ceco.channel.admin.model.resp.CountryResp;
+import com.ccj.channel.admin.model.req.CountryListReq;
+import com.ccj.channel.admin.model.req.CountrySaveReq;
+import com.ccj.channel.admin.model.resp.CountryResp;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;

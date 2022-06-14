@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.github.pagehelper.Page;

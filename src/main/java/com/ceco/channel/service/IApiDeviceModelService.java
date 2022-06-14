@@ -1,9 +1,9 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.DeviceModelListReq;
-import com.ceco.channel.admin.model.req.DeviceModelSaveReq;
-import com.ceco.channel.admin.model.resp.DeviceModelResp;
-import com.ceco.channel.admin.model.resp.DeviceTypeResp;
+import com.ccj.channel.admin.model.req.DeviceModelListReq;
+import com.ccj.channel.admin.model.req.DeviceModelSaveReq;
+import com.ccj.channel.admin.model.resp.DeviceModelResp;
+import com.ccj.channel.admin.model.resp.DeviceTypeResp;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;

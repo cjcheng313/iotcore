@@ -1,9 +1,9 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.channel.admin.model.resp.AppUserDeviceResp;
-import com.ceco.module.entity.RoomDevice;
-import com.ceco.module.dao.RoomDeviceMapper;
-import com.ceco.module.service.IRoomDeviceService;
+import com.ccj.channel.admin.model.resp.AppUserDeviceResp;
+import com.ccj.module.entity.RoomDevice;
+import com.ccj.module.dao.RoomDeviceMapper;
+import com.ccj.module.service.IRoomDeviceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

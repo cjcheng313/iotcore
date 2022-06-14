@@ -1,13 +1,13 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 import com.alipay.api.domain.UserDetailInfo;
-import com.ceco.channel.admin.model.req.AppUserListReq;
-import com.ceco.channel.admin.model.req.UserLoginReq;
-import com.ceco.channel.admin.model.resp.AppUserDetailResp;
-import com.ceco.channel.admin.model.resp.AppUserResp;
-import com.ceco.channel.admin.model.resp.UserLoginResp;
-import com.ceco.channel.service.IApiUserService;
-import com.ceco.common.annotation.NoAuthAnnotation;
+import com.ccj.channel.admin.model.req.AppUserListReq;
+import com.ccj.channel.admin.model.req.UserLoginReq;
+import com.ccj.channel.admin.model.resp.AppUserDetailResp;
+import com.ccj.channel.admin.model.resp.AppUserResp;
+import com.ccj.channel.admin.model.resp.UserLoginResp;
+import com.ccj.channel.service.IApiUserService;
+import com.ccj.common.annotation.NoAuthAnnotation;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

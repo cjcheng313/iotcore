@@ -1,9 +1,9 @@
-package com.ceco.channel.app.controller;
+package com.ccj.channel.app.controller;
 
 
-import com.ceco.channel.app.model.req.DeviceRegisterReq;
-import com.ceco.channel.app.model.resp.ConnectedDeviceResp;
-import com.ceco.channel.service.IApiDeviceService;
+import com.ccj.channel.app.model.req.DeviceRegisterReq;
+import com.ccj.channel.app.model.resp.ConnectedDeviceResp;
+import com.ccj.channel.service.IApiDeviceService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @Api(tags = {"app端设备控制器"})
 @RequestMapping("/app/device")
-public class DeviceController {
+public class Deviccjntroller {
 
 
     @Autowired

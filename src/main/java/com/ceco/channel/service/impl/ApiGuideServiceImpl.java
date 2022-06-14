@@ -1,14 +1,14 @@
-package com.ceco.channel.service.impl;
+package com.ccj.channel.service.impl;
 
-import com.ceco.channel.admin.model.req.GuideListReq;
-import com.ceco.channel.admin.model.req.GuideSaveReq;
-import com.ceco.channel.admin.model.resp.GuideResp;
-import com.ceco.channel.service.IApiGuideService;
-import com.ceco.common.utils.ConvertUtil;
-import com.ceco.common.utils.ValidatorUtils;
-import com.ceco.module.entity.GuideConf;
-import com.ceco.module.service.ICountryGuideService;
-import com.ceco.module.service.IGuideConfService;
+import com.ccj.channel.admin.model.req.GuideListReq;
+import com.ccj.channel.admin.model.req.GuideSaveReq;
+import com.ccj.channel.admin.model.resp.GuideResp;
+import com.ccj.channel.service.IApiGuideService;
+import com.ccj.common.utils.ConvertUtil;
+import com.ccj.common.utils.ValidatorUtils;
+import com.ccj.module.entity.GuideConf;
+import com.ccj.module.service.ICountryGuideService;
+import com.ccj.module.service.IGuideConfService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;

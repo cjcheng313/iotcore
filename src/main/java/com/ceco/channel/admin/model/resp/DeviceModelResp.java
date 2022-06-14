@@ -1,4 +1,4 @@
-package com.ceco.channel.admin.model.resp;
+package com.ccj.channel.admin.model.resp;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModel;

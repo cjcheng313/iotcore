@@ -1,9 +1,9 @@
-package com.ceco.module.entity;
+package com.ccj.module.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.time.LocalDateTime;
 
-import com.ceco.common.utils.BaseEntity;
+import com.ccj.common.utils.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;

@@ -1,8 +1,8 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.SceneListReq;
-import com.ceco.channel.admin.model.req.SceneSaveReq;
-import com.ceco.channel.admin.model.resp.SceneResp;
+import com.ccj.channel.admin.model.req.SceneListReq;
+import com.ccj.channel.admin.model.req.SceneSaveReq;
+import com.ccj.channel.admin.model.resp.SceneResp;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;

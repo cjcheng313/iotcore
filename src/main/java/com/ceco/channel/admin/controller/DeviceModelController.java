@@ -1,11 +1,11 @@
-package com.ceco.channel.admin.controller;
+package com.ccj.channel.admin.controller;
 
 
-import com.ceco.channel.admin.model.req.DeviceModelListReq;
-import com.ceco.channel.admin.model.req.DeviceModelSaveReq;
-import com.ceco.channel.admin.model.resp.DeviceModelResp;
-import com.ceco.channel.admin.model.resp.DeviceTypeResp;
-import com.ceco.channel.service.IApiDeviceModelService;
+import com.ccj.channel.admin.model.req.DeviceModelListReq;
+import com.ccj.channel.admin.model.req.DeviceModelSaveReq;
+import com.ccj.channel.admin.model.resp.DeviceModelResp;
+import com.ccj.channel.admin.model.resp.DeviceTypeResp;
+import com.ccj.channel.service.IApiDeviceModelService;
 import com.github.pagehelper.PageInfo;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

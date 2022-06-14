@@ -1,11 +1,11 @@
-package com.ceco.channel.app.controller;
+package com.ccj.channel.app.controller;
 
-import com.ceco.channel.admin.model.req.UserLoginReq;
-import com.ceco.channel.admin.model.resp.UserLoginResp;
-import com.ceco.channel.app.model.req.AppUserRegisterReq;
-import com.ceco.channel.app.model.req.AppUserSaveReq;
-import com.ceco.channel.service.IApiUserService;
-import com.ceco.common.annotation.NoAuthAnnotation;
+import com.ccj.channel.admin.model.req.UserLoginReq;
+import com.ccj.channel.admin.model.resp.UserLoginResp;
+import com.ccj.channel.app.model.req.AppUserRegisterReq;
+import com.ccj.channel.app.model.req.AppUserSaveReq;
+import com.ccj.channel.service.IApiUserService;
+import com.ccj.common.annotation.NoAuthAnnotation;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.ceco.channel.admin.model.resp;
+package com.ccj.channel.admin.model.resp;
 
 import io.swagger.annotations.ApiModel;
 import lombok.Data;

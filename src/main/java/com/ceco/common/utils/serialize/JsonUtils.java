@@ -1,4 +1,4 @@
-package com.ceco.common.utils.serialize;
+package com.ccj.common.utils.serialize;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,4 +1,4 @@
-package com.ceco.common.properties;
+package com.ccj.common.properties;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;

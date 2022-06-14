@@ -1,4 +1,4 @@
-package com.ceco.common.Enum;
+package com.ccj.common.Enum;
 
 import io.swagger.annotations.ApiModel;
 

@@ -1,4 +1,4 @@
-package com.ceco.common.Enum;
+package com.ccj.common.Enum;
 
 public interface BaseEnum<V> {
     public V getValue();

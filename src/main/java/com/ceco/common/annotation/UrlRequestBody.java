@@ -1,4 +1,4 @@
-package com.ceco.common.annotation;
+package com.ccj.common.annotation;
 
 import java.lang.annotation.*;
 

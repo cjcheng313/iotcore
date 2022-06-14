@@ -1,6 +1,6 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
-import com.ceco.common.exception.BusinessException;
+import com.ccj.common.exception.BusinessException;
 import org.apache.commons.io.FileUtils;
 
 import javax.servlet.http.HttpServletRequest;

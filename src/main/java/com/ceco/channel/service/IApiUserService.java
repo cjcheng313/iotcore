@@ -1,12 +1,12 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.AppUserListReq;
-import com.ceco.channel.admin.model.req.UserLoginReq;
-import com.ceco.channel.admin.model.resp.AppUserDetailResp;
-import com.ceco.channel.admin.model.resp.AppUserResp;
-import com.ceco.channel.admin.model.resp.UserLoginResp;
-import com.ceco.channel.app.model.req.AppUserRegisterReq;
-import com.ceco.channel.app.model.req.AppUserSaveReq;
+import com.ccj.channel.admin.model.req.AppUserListReq;
+import com.ccj.channel.admin.model.req.UserLoginReq;
+import com.ccj.channel.admin.model.resp.AppUserDetailResp;
+import com.ccj.channel.admin.model.resp.AppUserResp;
+import com.ccj.channel.admin.model.resp.UserLoginResp;
+import com.ccj.channel.app.model.req.AppUserRegisterReq;
+import com.ccj.channel.app.model.req.AppUserSaveReq;
 import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.RequestBody;
 

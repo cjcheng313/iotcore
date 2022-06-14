@@ -1,4 +1,4 @@
-package com.ceco.common.utils.response;
+package com.ccj.common.utils.response;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -1,9 +1,9 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.channel.admin.model.resp.DeviceModelResp;
-import com.ceco.module.entity.VersionSupportDevice;
-import com.ceco.module.dao.VersionSupportDeviceMapper;
-import com.ceco.module.service.IVersionSupportDeviceService;
+import com.ccj.channel.admin.model.resp.DeviceModelResp;
+import com.ccj.module.entity.VersionSupportDevice;
+import com.ccj.module.dao.VersionSupportDeviceMapper;
+import com.ccj.module.service.IVersionSupportDeviceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

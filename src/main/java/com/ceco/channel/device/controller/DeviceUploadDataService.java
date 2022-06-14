@@ -1,10 +1,10 @@
-package com.ceco.channel.device.controller;
+package com.ccj.channel.device.controller;
 
 import com.aliyun.mns.client.CloudAccount;
 import com.aliyun.mns.client.CloudQueue;
 import com.aliyun.mns.client.MNSClient;
 import com.aliyun.mns.model.Message;
-import com.ceco.configure.AliyunIOTConfig;
+import com.ccj.configure.AliyunIOTConfig;
 import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

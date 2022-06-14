@@ -1,6 +1,6 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.module.entity.FirmwareVersion;
+import com.ccj.module.entity.FirmwareVersion;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

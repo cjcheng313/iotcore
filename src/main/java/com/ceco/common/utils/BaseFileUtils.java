@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import org.springframework.web.multipart.MultipartFile;
 

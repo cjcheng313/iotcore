@@ -1,4 +1,4 @@
-package com.ceco.common.utils;
+package com.ccj.common.utils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

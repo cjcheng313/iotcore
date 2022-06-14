@@ -1,7 +1,7 @@
-package com.ceco.common.convert;
+package com.ccj.common.convert;
 
-import com.ceco.common.annotation.UrlRequestBody;
-import com.ceco.common.utils.serialize.JsonUtils;
+import com.ccj.common.annotation.UrlRequestBody;
+import com.ccj.common.utils.serialize.JsonUtils;
 import lombok.extern.java.Log;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;

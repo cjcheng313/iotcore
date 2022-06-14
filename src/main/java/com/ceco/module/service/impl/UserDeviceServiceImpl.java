@@ -1,8 +1,8 @@
-package com.ceco.module.service.impl;
+package com.ccj.module.service.impl;
 
-import com.ceco.module.entity.UserDevice;
-import com.ceco.module.dao.UserDeviceMapper;
-import com.ceco.module.service.IUserDeviceService;
+import com.ccj.module.entity.UserDevice;
+import com.ccj.module.dao.UserDeviceMapper;
+import com.ccj.module.service.IUserDeviceService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

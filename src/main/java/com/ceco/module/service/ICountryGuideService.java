@@ -1,7 +1,7 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.channel.admin.model.dto.CountryGuideDto;
-import com.ceco.module.entity.CountryGuide;
+import com.ccj.channel.admin.model.dto.CountryGuideDto;
+import com.ccj.module.entity.CountryGuide;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

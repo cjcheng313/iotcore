@@ -1,7 +1,7 @@
-package com.ceco.handler;
+package com.ccj.handler;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
-import com.ceco.common.utils.CurrentContext;
+import com.ccj.common.utils.CurrentContext;
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 

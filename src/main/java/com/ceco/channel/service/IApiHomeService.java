@@ -1,8 +1,8 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.app.model.req.*;
-import com.ceco.channel.app.model.resp.HomeResp;
-import com.ceco.channel.app.model.resp.RoomResp;
+import com.ccj.channel.app.model.req.*;
+import com.ccj.channel.app.model.resp.HomeResp;
+import com.ccj.channel.app.model.resp.RoomResp;
 import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.RequestBody;
 

@@ -1,8 +1,8 @@
-package com.ceco.channel.service;
+package com.ccj.channel.service;
 
-import com.ceco.channel.admin.model.req.GuideListReq;
-import com.ceco.channel.admin.model.req.GuideSaveReq;
-import com.ceco.channel.admin.model.resp.GuideResp;
+import com.ccj.channel.admin.model.req.GuideListReq;
+import com.ccj.channel.admin.model.req.GuideSaveReq;
+import com.ccj.channel.admin.model.resp.GuideResp;
 import com.github.pagehelper.PageInfo;
 
 import java.util.List;

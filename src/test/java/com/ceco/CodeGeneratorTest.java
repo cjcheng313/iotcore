@@ -1,10 +1,10 @@
-package com.ceco;
+package com.ccj;
 
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
-import com.baomidou.mybatisplus.generator.config.DataSourceConfig;
+import com.baomidou.mybatisplus.generator.config.DataSourccjnfig;
 import com.baomidou.mybatisplus.generator.config.GlobalConfig;
 import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 public class CodeGeneratorTest {
 
     //文件生成路径(一般都是生成在此项目的src/main/java下面)
-    private static final String FILE_DIR = "/Users/duansy/work/ceco_lot/tmp";
+    private static final String FILE_DIR = "/Users/duansy/work/ccj_lot/tmp";
     //数据库连接地址
     private static final String DB_URL = "jdbc:mysql://bj-cdb-nnkv8t0g.sql.tencentcdb.com:60707/ceiot?serverTimezone=CTT&characterEncoding=utf-8&useUnicode=true&useSSL=false&autoReconnect=true&zeroDateTimeBehavior=convertToNull";
     //数据库用户名
@@ -33,9 +33,9 @@ public class CodeGeneratorTest {
     //表名前缀
     private static final String TABLE_PREX = "ce_";
     //生成代码的父包名
-    private static final String PARENT_PACKAGE = "com.ceco.module";
+    private static final String PARENT_PACKAGE = "com.ccj.module";
     //实体类继承的父类
-    private static final String BASE_ENTITY = "com.ceco.BaseEntity";
+    private static final String BASE_ENTITY = "com.ccj.BaseEntity";
 
     //要生成实体类的表
     private static final String[] TABLE_NAMES = {"ce_version_support_device","ce_firmware_version","ce_device_model","ce_device_panel"};
@@ -54,7 +54,7 @@ public class CodeGeneratorTest {
                 .setBaseColumnList(false);      //在xml中生成基础列
 
         //数据源配置
-        DataSourceConfig dsConfig = new DataSourceConfig();
+        DataSourccjnfig dsConfig = new DataSourccjnfig();
         dsConfig.setDbType(DbType.MYSQL)             //数据库类型
                 .setUrl(DB_URL)                      //数据库配置
                 .setUsername(USER_NAME)              //数据库用户名

@@ -1,7 +1,7 @@
 server:
   port: ${config.serviceport:8787}
   servlet:
-    context-path: /cecoapi
+    context-path: /ccjapi
   tomcat:
     max-http-post-size: -1
     max-threads: 2000

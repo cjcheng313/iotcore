@@ -1,6 +1,6 @@
-package com.ceco.module.service;
+package com.ccj.module.service;
 
-import com.ceco.module.entity.SceneConf;
+import com.ccj.module.entity.SceneConf;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
